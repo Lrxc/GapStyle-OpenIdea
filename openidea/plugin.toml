@@ -1,0 +1,16 @@
+# A theme plugin is data only: no `wasm`, no capabilities, nothing to compile.
+# See plugins/themes.md in the OpenIDEA repository for the file format.
+id = "gaplo917.gapstyle"
+name = "GapStyle"
+version = "5.1.0"
+description = "The world-first* productivity-oriented, semantic-highlighting-driven colour scheme, on IntelliJ IDEA's Islands Dark UI."
+authors = ["Gary Lo <gaplotech@gmail.com>"]
+homepage = "https://github.com/gaplo917/GapStyle"
+license = "MIT"
+categories = ["themes"]
+change-notes = "5.1.0 — GapStyle for OpenIDEA, ported from the IntelliJ colour scheme (GapStyle 5.1)."
+engines.openidea = "^1.0"
+
+[[contributes.themes]]
+path = "themes/gapstyle.theme.json"
+editor-scheme = "themes/gapstyle.scheme.json"

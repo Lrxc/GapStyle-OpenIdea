@@ -1,0 +1,15 @@
+// GapStyle: UI theme. GapStyle is a colour scheme, not a UI re-skin, so it sets
+// no chrome: OpenIDEA keeps running on Islands Dark, the IntelliJ IDEA look the
+// scheme is designed for. Editor, syntax and ANSI colours live in
+// gapstyle.scheme.json, generated from intellij/GapStyle/colors/GapStyle.xml.
+// Token reference: plugins/themes.md in the OpenIDEA repository.
+{
+  "id": "gapstyle",
+  "name": "GapStyle",
+  "kind": "dark",
+  "tokens": {
+    // intellij/…/GapStyle.xml sets TEXT's background to #191A1C (Islands Dark).
+    // The editor sits on an island, so the island paints that same colour.
+    "--bg-island": "#191a1c"
+  }
+}
